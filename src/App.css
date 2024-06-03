@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    margin: 50px auto;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    padding: 20px 0;
+    border-radius: 20px;
+    background-color: rgb(247, 240, 198);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo_create {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+}
+
+.todo_input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+}
+
+.todo_btn {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(201, 201, 198);
+    cursor: pointer;
+    color: #fff;
+    transition: all .3s ease-out;
+    font-size: 16px;
+}
+
+.todo_btn:hover {
+    background-color: rgb(131, 131, 130);
+}
+
+.todo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 1px rgb(199, 199, 110);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.todo_icons {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.second_icon:hover,
+.third_icon:hover,
+.once_icon:hover {
+    color: rgb(129, 131, 131);
+}
+
+@media screen and (min-width:728px) {
+    .App {
+        width: 500px;
+    }
+}
