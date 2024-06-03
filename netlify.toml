@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "../vite-project/index.html"
-  status = 200
